@@ -115,3 +115,42 @@ This dataset can be used for:
 - Convert score columns to numeric format if necessary.
 - Data can be visualized using histograms or bar charts for better insights into student performance.
 
+# Dataset: Titanic Passenger Information
+
+## Description
+This dataset contains information about passengers on the Titanic, including demographics, ticket details, and survival outcomes. It is commonly used for classification and predictive modeling tasks.
+
+## File Information
+- **Filename:** Titanic-Dataset.csv
+- **Total Rows:** 891
+- **Total Columns:** 12
+
+## Column Descriptions
+1. **PassengerId** - Unique identifier for each passenger.
+2. **Survived** - Survival status (0 = No, 1 = Yes).
+3. **Pclass** - Ticket class (1 = First, 2 = Second, 3 = Third).
+4. **Name** - Full name of the passenger.
+5. **Sex** - Gender of the passenger (male/female).
+6. **Age** - Age of the passenger in years (some values are missing).
+7. **SibSp** - Number of siblings/spouses aboard the Titanic.
+8. **Parch** - Number of parents/children aboard the Titanic.
+9. **Ticket** - Ticket number.
+10. **Fare** - Passenger fare.
+11. **Cabin** - Cabin number (many missing values).
+12. **Embarked** - Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
+
+## Data Characteristics
+- Contains both categorical and numerical data.
+- Some missing values in **Age**, **Cabin**, and **Embarked** columns.
+- The **Survived** column is the target variable for classification tasks.
+
+## Usage
+This dataset can be used for:
+- Predictive modeling (e.g., classification of survivors).
+- Statistical analysis of passenger demographics.
+- Feature engineering for machine learning.
+
+## Notes
+- Handle missing values carefully, especially in **Age**, **Cabin**, and **Embarked**.
+- Consider encoding categorical variables (e.g., **Sex**, **Embarked**) before using them in machine learning models.
+- Feature scaling may be necessary for numerical columns like **Fare** and **Age**.
