@@ -154,3 +154,41 @@ This dataset can be used for:
 - Handle missing values carefully, especially in **Age**, **Cabin**, and **Embarked**.
 - Consider encoding categorical variables (e.g., **Sex**, **Embarked**) before using them in machine learning models.
 - Feature scaling may be necessary for numerical columns like **Fare** and **Age**.
+
+# Dataset: Car Price Dataset
+
+## Description
+This dataset contains information about various car models, their specifications, and their respective market prices. It can be used for price prediction, trend analysis, and feature impact studies.
+
+## File Information
+- **Filename:** car_price_dataset.csv
+- **Total Rows:** 10,000
+- **Total Columns:** 10
+
+## Column Descriptions
+1. **Brand** - The brand of the car (e.g., Audi, Kia, Chevrolet).
+2. **Model** - The specific model of the car.
+3. **Year** - The manufacturing year of the car.
+4. **Engine_Size** - Engine size in liters.
+5. **Fuel_Type** - The type of fuel used (e.g., Petrol, Diesel, Hybrid, Electric).
+6. **Transmission** - The type of transmission (e.g., Manual, Automatic, Semi-Automatic).
+7. **Mileage** - The total distance the car has traveled (in kilometers or miles).
+8. **Doors** - The number of doors in the car.
+9. **Owner_Count** - The number of previous owners of the car.
+10. **Price** - The market price of the car (currency not specified).
+
+## Data Characteristics
+- The dataset consists of both categorical and numerical data.
+- All columns have complete data (no missing values).
+- The **Price** column is the target variable for price prediction models.
+
+## Usage
+This dataset can be used for:
+- Predicting car prices based on specifications.
+- Analyzing factors that influence car prices.
+- Understanding trends in the used car market.
+
+## Notes
+- The currency for the **Price** column is not specified and may need clarification.
+- Ensure appropriate handling of categorical variables like **Brand**, **Fuel_Type**, and **Transmission** when used in machine learning models.
+- Mileage values should be standardized if using a mixed dataset with different units (miles vs. kilometers).
